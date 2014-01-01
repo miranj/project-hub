@@ -67,6 +67,36 @@ h3 {
   text-transform: lowercase; }
 
 /************End Global**************/
+/************Launchpad**************/
+.launchpad {
+  margin-bottom: 2rem;
+ }
+/*  clearfix  */
+.launchpad:before,
+.launchpad:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+.launchpad:after {
+  clear: both;
+}
+  .launchpad li {
+    float: left; }
+  .launchpad li + li {
+    margin-left: .25em; }
+  .launchpad a {
+    padding: 1rem;
+    background: #EEE;
+    display: block; }
+  .launchpad a:hover {
+    text-decoration: none;
+    background: black;
+    color: white; }
+  .launchpad a img {
+    height: 1rem;
+    width: auto; }
+    
+/************End Launchpad**************/
 /************Timeline**************/
 /* Timeline Container */
 .timeline {
