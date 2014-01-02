@@ -81,9 +81,8 @@ h3 {
   clear: both;
 }
   .launchpad li {
-    float: left; }
-  .launchpad li + li {
-    margin-left: .25em; }
+    float: left;
+    margin: 0 .25em .25em 0; }
   .launchpad a {
     padding: 1rem;
     background: #EEE;
